@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThemeColor">
+        <attr name="bg_window_color" format="reference|color" />
+        <attr name="refresh_color" format="reference|color" />
+        <attr name="icon_font_file" format="string" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressbarUnfinishedColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+
+</resources>
